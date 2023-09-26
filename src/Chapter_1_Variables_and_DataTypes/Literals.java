@@ -13,6 +13,7 @@ public class Literals {
         float f=4.5f;
         double d=4.556D;
         boolean b=true;
+
         System.out.println(age);
         System.out.println(ageCamel);
         System.out.println(age1);
