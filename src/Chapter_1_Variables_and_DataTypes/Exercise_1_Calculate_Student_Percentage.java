@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercise_1_Calculate_Student_Percentage {
     public static void main(String[] args) {
+
         Scanner scanner=new Scanner(System.in);
 
         System.out.print("Enter the Hindi marks (0-100) = ");
