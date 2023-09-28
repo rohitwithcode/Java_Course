@@ -97,9 +97,5 @@ public class String_Methods {
         System.out.println("\n\n String equalsIgnoreCase() method .......");
         System.out.println("Your Original String : "+name);
         System.out.println("Your string is equals : " +name.equalsIgnoreCase("roHit"));
-
-
-
     }
-
 }
