@@ -2,11 +2,9 @@ package Chapter_11_Abstract_Classes_and_Interfaces;
 
 abstract class telePhone{
     abstract void ring();
-
     abstract void lift();
     abstract void disconnect();
 }
-
 class smartTelephone extends telePhone{
 
     @Override
@@ -40,7 +38,6 @@ public class Z_Question_3 {
         telePhone.lift();
         telePhone.ring();
         telePhone.disconnect();
-
 //        telePhone.playYoutube(); // This will be throw an error because the reference of telePhone class and the object of the smartTelephone
 //        telePhone.turnOnData();// This will be throw an error because the reference of telePhone class and the object of the smartTelephone
     }
