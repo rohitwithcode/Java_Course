@@ -1,4 +1,4 @@
-package Chapter_12_Packages;
+package CodeWithRohit;
 
 import java.util.Scanner;
 //import java.util.*;
