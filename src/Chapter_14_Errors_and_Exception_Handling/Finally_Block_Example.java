@@ -21,6 +21,13 @@ public class Finally_Block_Example {
         finally {
             System.out.println("I am always run ....");
         }
+        try {
+//            System.out.println(5/0);
+            System.out.println(4/2);
+        }
+        finally {
+            System.out.println("Yes i am definitely run because i am finally");
+        }
     }
     public static void main(String[] args) {
         Nothing();
