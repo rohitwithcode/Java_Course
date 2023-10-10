@@ -25,7 +25,7 @@ class  ThreadRunnable2 implements Runnable{
     }
 }
 
-public class MultiThreading_implementing_Runnable_interface {
+public class MultiThreading_by_implementing_Runnable_interface {
     public static void main(String[] args) {
 
         ThreadRunnable1 bullet1=new ThreadRunnable1();
