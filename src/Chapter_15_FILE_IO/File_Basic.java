@@ -19,6 +19,7 @@ import java.io.InputStreamReader;
 
 public class File_Basic {
     public static void main(String[] args) {
+        System.out.println("File Handling....");
     /*
     Whenever we run Java program, it is executed in RAM and hence
     we close Java and reopen it,the data i.e. the output is not saved.
