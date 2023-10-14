@@ -5,13 +5,18 @@ import java.io.*;
                                                                    |
                                                                  /  \
                                                                /     \
-                            ----------------------------------         -----------------------------------
-                            1.Byte Stream                                               2.Character Stream
-                                   |                                                                |
-                                 /  \                                                             /  \
-                  --------------     --------------                                    ----------      ------------
-                 1.Input Stream      2.Output Stream                                   1.Reader           2.Writer
-
+                            ----------------------------------         -----------------------------------------------
+                            1.Byte Stream                                                           2.Character Stream
+                                   |                                                                       |
+                                 /  \                                                                    /  \
+                  --------------     ---------------------                                    ----------      ------------
+                 1.Input Stream            2.Output Stream                                   1.Reader           2.Writer
+                 A.BufferedInputStream     A.BufferedOutputStream                           A.BufferedReader    A.BufferedWriter
+                 B.ByteArrayInputStream    B.ByteArrayOutputStream                          B.CharArrayReader   B.CharArrayWriter
+                 C.DataInputStream         C.DataOutputStream                               C.FileReader        C.FileWriter
+                 D.FileInputStream         D.FileOutputStream                               D.InputStreamReader D.InputStreamWriter
+                 E.PrintStream                                                                                  E.PrintWriter
+                 F.RandomAccessFile                                                         F.StringReader      F.StringWriter
 
                            */
 
