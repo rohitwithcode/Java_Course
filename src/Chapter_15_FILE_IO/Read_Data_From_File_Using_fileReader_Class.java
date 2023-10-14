@@ -14,6 +14,7 @@ public class Read_Data_From_File_Using_fileReader_Class {
 //            }
             int data=fileReader.read();
             while (data != -1){
+
                 System.out.print((char) data);
                 data=fileReader.read();
             }
