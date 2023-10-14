@@ -16,7 +16,7 @@ public class CreateFile {
             else {
                 System.out.println("File already exist...");
                 System.out.println("File Length is : "+file.length());
-                System.out.println("File Deleted Successfully : "+file.delete());
+//                System.out.println("File Deleted Successfully : "+file.delete());
             }
         }catch (IOException e){
             System.out.println(e);
