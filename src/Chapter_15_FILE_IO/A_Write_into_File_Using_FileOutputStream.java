@@ -23,7 +23,7 @@ import java.util.Scanner;
         with the specified name.
  */
 
-public class Write_into_File_Using_FileOutputStream {
+public class A_Write_into_File_Using_FileOutputStream {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
