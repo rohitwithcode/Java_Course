@@ -6,14 +6,14 @@ import java.util.regex.Pattern;
 public class Quantifiers_in_Regular_Expressions {
     public static void main(String[] args) {
 
-//        Pattern pattern=Pattern.compile("a"); // be exactly one in target string
+//        Pattern pattern=Pattern.compile("a"); // be exactly one "a" in target string
 //        Matcher matcher=pattern.matcher("aaaabbbadaaabaaaab");
 //
 //        while (matcher.find()){
 //            System.out.println("Character "+matcher.group()+" is find at index : "+matcher.start());
 //        }
 
-//        Pattern pattern1=Pattern.compile("a+"); // be At least one in target string
+//        Pattern pattern1=Pattern.compile("a+"); // be At least one "a" in target string
 //        Matcher matcher1=pattern1.matcher("aaaabbbadaaabaaaab");
 //
 //        while (matcher1.find()){
