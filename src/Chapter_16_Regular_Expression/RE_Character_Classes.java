@@ -20,14 +20,14 @@ public class RE_Character_Classes {
 //            System.out.println("The character "+matcher1.group()+" is found at index "+matcher1.start());
 //        }
 
-//        Pattern pattern2=Pattern.compile("[a-z]"); // find small character in target string
+//        Pattern pattern2=Pattern.compile("[a-z]"); // find small alphabets in target string
 //        Matcher matcher2=pattern2.matcher("a7b@z#9$");
 //
 //        while (matcher2.find()){
 //            System.out.println("The character "+matcher2.group()+" is found at index "+matcher2.start());
 //        }
 
-//        Pattern pattern3=Pattern.compile("[A-Z]"); // find upper case character in target string
+//        Pattern pattern3=Pattern.compile("[A-Z]"); // find upper case alphabets in target string
 //        Matcher matcher3=pattern3.matcher("a7b@z#9$");
 //
 //        while (matcher3.find()){
