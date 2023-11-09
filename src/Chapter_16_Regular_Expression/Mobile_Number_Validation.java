@@ -48,7 +48,8 @@ public class Mobile_Number_Validation {
 
         if (matcher.find()){
             System.out.println("Your number is correct....");
-        }else{
+        }
+        else{
             System.out.println("Please enter a valid number");
         }
     }
