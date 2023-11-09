@@ -11,8 +11,8 @@ public class RegexDemo {
 
         while (matcher.find()){
             count++;
-            System.out.println("ab find at index : "+matcher.start());
-        }
+            System.out.println("ab find at index : "+matcher.start()+" here is end index of ab is : "+matcher.end()+"......"+matcher.group());
+             }
         System.out.println("The total number of occurrences of ab :"+count);
     }
 }
