@@ -49,11 +49,11 @@ public class Pre_Defined_Character_Classes {
 //            System.out.println("The special symbol "+matcher5.group()+" is find at index "+matcher5.start());
 //        }
 
-        Pattern pattern4=Pattern.compile("."); // Any word character,any digit including special symbol also in target String
-        Matcher matcher4=pattern4.matcher("Aa df a3 y@0fe3os44@2$%%&^r");
+        Pattern pattern6=Pattern.compile("."); // Any word character,any digit including special symbol also in target String
+        Matcher matcher6=pattern6.matcher("Aa df a3 y@0fe3os44@2$%%&^r");
 
-        while (matcher4.find()){
-            System.out.println("The digit "+matcher4.group()+" is find at index "+matcher4.start());
+        while (matcher6.find()){
+            System.out.println("The digit "+matcher6.group()+" is find at index "+matcher6.start());
         }
     }
 }
