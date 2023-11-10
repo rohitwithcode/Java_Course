@@ -84,7 +84,7 @@ public class LinkedListExample {
 
 
         System.out.println("");
-        System.out.println("The List of after the remove  first element from the list2 : "+linkedList1.remove(linkedList2)); //Removes the first occurrence of the specified element from this list, if it is present.
+        System.out.println("The List of after the remove  first element from the list2 : "+linkedList1.remove(3)); //Removes the first occurrence of the specified element from this list, if it is present.
         for (int i=0;i<linkedList1.size();i++){
             System.out.print(linkedList1.get(i)+",");
         }
