@@ -111,8 +111,5 @@ public class LinkedListExample {
         for (int i=0;i<linkedList1.size();i++){
             System.out.print(linkedList1.get(i)+",");
         }
-//        for (int i:linkedList1){
-//            System.out.println(i);
-//        }
     }
 }
