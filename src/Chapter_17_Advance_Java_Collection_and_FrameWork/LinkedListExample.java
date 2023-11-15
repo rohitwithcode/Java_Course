@@ -29,7 +29,7 @@ public class LinkedListExample {
         linkedList1.addAll(0,linkedList2);
 
 //        linkedList1.clear();
-//        System.out.println(linkedList1.contains(68));
+        System.out.println(linkedList1.contains(68));
 //        System.out.println(linkedList1.clone());
 //        System.out.println(linkedList1.remove(6));
 //        System.out.println(linkedList1.indexOf(67));
